@@ -29,7 +29,7 @@ class SuperHeroesViewModel : ViewModel() {
 
         CoroutineScope(Dispatchers.IO).launch{
 
-            for (i in 1..600){
+            for (i in 1..730){
 
                 val call = service.getHeroe(i)
 
